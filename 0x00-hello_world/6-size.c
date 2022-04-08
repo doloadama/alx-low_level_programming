@@ -6,7 +6,7 @@
 *return always 0 (success)
 */
 
-int main(void)
+int main(void) /*return the value of the main*/
 {
 int a;
 long int b;
