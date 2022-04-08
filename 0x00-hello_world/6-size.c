@@ -3,9 +3,7 @@
 /**
  *main - entry point
  *
- *return always 0 (success)
- *
- *return the size of every type 
+ *return always 0 (success) 
 */
 
 int main(void)
