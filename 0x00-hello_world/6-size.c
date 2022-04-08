@@ -4,6 +4,8 @@
  *main - entry point
  *
  *return always 0 (success)
+ *
+ *warning return value of main
 */
 
 int main(void)
