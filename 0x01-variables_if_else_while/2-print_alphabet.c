@@ -7,8 +7,11 @@
 
 int main(void)
 {
-char alphabet[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
-'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
-putchar(tolower(alphabet)\n);
+char c;
+for (c = 0; c < 26; ++c)
+putchar('A' + c);
+for (c = 0; c < 26; ++c)
+putchar('a' + c);
+putchar('\n');
 return (0);
 }
