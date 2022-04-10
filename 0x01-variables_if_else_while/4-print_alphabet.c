@@ -6,13 +6,12 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
+int main(0)
 {
 char c;
-for (c = 0; c < 26; ++c)
-putchar('a' + c);
-for (c = 0; c < 26; ++c)
-putchar('A' + c);
+for (c = 'a'; c < 'z'; c++)
+if (c == 'e' && c == 'q')
+putchar(c - 'e', c - 'q');
 putchar('\n');
 return (0);
-}
+} 
