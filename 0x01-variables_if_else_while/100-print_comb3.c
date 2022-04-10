@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-char c;
-for (c = '00'; c <= '89'; c++)
+int c;
+for (c = 0; c <= 89; c++)
 {
-putchar(c);
+if (c <= 9)
+{
+putchar('0' + c);
+}
 if (c != '89')
 {
 putchar(',');
