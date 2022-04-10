@@ -9,6 +9,7 @@
 int main(void)
 {
 char c;
+char hexa;
 for ( c = 0; c <= 15; ++c)
 hexa = c / 16;
 putchar('0' + hexa);
