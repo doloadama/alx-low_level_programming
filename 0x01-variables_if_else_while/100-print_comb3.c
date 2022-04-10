@@ -7,17 +7,22 @@
  */
 int main(void)
 {
-int c;
-for (c = 0; c <= 89; c++)
+int i, j;
+for (i = 48; i <= 56; n++)
 {
-if (c <= 9)
+for (j = 49; j <= 57; m++)
 {
-putchar('0' + c);
-}
-if (c != '89')
+if (j > i)
+{
+putchar(i);
+putchar(j);
+if (i != 56 || j != 57)
 {
 putchar(',');
 putchar(' ');
+}
+}
+}
 }
 putchar('\n');
 return (0);
