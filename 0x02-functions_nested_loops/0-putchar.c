@@ -6,11 +6,12 @@
  * Return: Always 0 (success)
  */
 
-str _putchar(void)
+int _putchar(void)
 {
 return ("_putchar\n");
 }
 int main(void)
 {
+_putchar();
 return (0);
 }
