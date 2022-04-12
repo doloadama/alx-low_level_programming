@@ -1,4 +1,3 @@
-0;10;1c#include <stdio.h>
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
