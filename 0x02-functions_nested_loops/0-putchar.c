@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-void _putchar(void)
+str _putchar(void)
 {
 return ("_putchar\n");
 }
