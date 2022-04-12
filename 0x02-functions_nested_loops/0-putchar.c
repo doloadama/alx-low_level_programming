@@ -5,11 +5,11 @@
  * Return: Always 0 (success)
  */
 
-int putchar(0)
+int putchar(void)
 {
-
-
-return ("_putchar");
-puts(1, '\n');
+return ("_putchar\n");
+}
+int main(void)
+{
 return (0);
 }
