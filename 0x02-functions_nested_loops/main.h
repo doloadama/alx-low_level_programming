@@ -1,10 +1,10 @@
-#include <stdio.h>
+0;10;1c#include <stdio.h>
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
 int _putchar(char c);
 void print_alphabet(void):
-void print_alphabet_x10(void);
+void print_alphabet(void);
 int _islower(int c);
 int _isaplha(int c);
 int _abs(int);
