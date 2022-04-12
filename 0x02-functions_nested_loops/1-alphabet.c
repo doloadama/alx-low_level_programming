@@ -5,9 +5,12 @@
  *
  * Return Always 0 (success)
  */
-
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
+int c;
+for(c = 0; c <= 26; ++c)
+_putchar('a' + c);
+
+
 return (0);
 }
