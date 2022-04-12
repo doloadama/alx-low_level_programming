@@ -7,10 +7,8 @@
  */
 void print_alphabet(void)
 {
-int c;
-for(c = 0; c <= 26; ++c)
-_putchar('a' + c);
-
-
+char c;
+for(c = 'a'; c <= 'z'; ++c)
+_putchar(c);
 return (0);
 }
