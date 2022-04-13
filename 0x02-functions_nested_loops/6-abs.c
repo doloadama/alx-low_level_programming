@@ -2,7 +2,7 @@
 
 /**
  * _abs - check the value of an integer
- * @a: That integer
+ * @n: That integer
  * Return: the abs of integer
  */
 
