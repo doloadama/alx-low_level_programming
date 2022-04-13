@@ -1,4 +1,4 @@
-#include "main.h"
+0;10;1c#include "main.h"
 
 /**
  * int _abs - check the value of an integer
@@ -11,8 +11,10 @@ int result;
 if (n < 0)
 {
 result = n * (-1);
-_putchar(result);
-else
+ _putchar(result);
+}
+if (n > 0)
+{
 _putchar(n);
 }
 putchar("\n");
