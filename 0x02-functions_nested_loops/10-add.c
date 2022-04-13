@@ -5,7 +5,7 @@
  * Return: the result of the addition
  */
 
-int add(a; b)
+int add(int a, int b)
 {
 int somme = a + b;
 _putchar(somme);
