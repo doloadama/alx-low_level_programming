@@ -6,17 +6,9 @@
  */
 
 int _abs(int n)
-{
-int result; 
-if (n < 0)
-{
-result = n * (-1);
- _putchar(result);
-}
-if (n > 0)
-{
-_putchar(n);
-}
-_putchar('\n');
-return (0);
+{ 
+if (n >= 0)
+return (n);
+else
+return (-n);
 }
