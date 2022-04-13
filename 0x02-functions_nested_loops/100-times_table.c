@@ -17,16 +17,24 @@ for (multi = 1; multi <= n; multi++)
 {
 _putchar(',');
 _putchar(' ');
-_putchar(' ');
 
 prod = num * multi;
 
-if (prod <= n)
+if (prod <= 99)
 _putchar(' ');
-else
+if (prod <= 9);
+_putchar(' '); 
+
+if (prod >= 100)
+{
 _putchar((prod / 10) + '0');
 _putchar((prod % 10) + '0');
 }
+else if (prod <= 99 && prod >= 10)
+{   
+_putchar((prod / 10) + '0');
+_putchar((prod % 10) + '0');
+
 _putchar('\n');
 }
 }
