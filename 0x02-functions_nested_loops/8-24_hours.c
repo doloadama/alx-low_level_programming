@@ -1,4 +1,4 @@
-0;10;1c0;10;1c#include "main.h"
+#include "main.h"
 
 /**
  * jack_bauer - prints every minute of a day
