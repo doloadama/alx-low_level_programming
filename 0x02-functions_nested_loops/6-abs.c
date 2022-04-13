@@ -17,5 +17,5 @@ if (n > 0)
 {
 _putchar(n);
 }
-putchar("\n");
+_putchar("\n");
 }
