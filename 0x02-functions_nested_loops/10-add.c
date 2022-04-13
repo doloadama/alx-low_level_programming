@@ -1,4 +1,4 @@
-#include "main.h"
+0;10;1c#include "main.h"
 
 /**
  * add - add two integers
@@ -9,4 +9,5 @@ int add(int a, int b)
 {
 int somme = a + b;
 _putchar(somme);
+return (0);
 }
