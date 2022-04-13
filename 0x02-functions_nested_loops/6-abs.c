@@ -13,8 +13,8 @@ int result;
 if (n < 0)
 {
 result = n * (-1);
-putchar(result);
+_putchar(result);
 else
-putchar(n);
+_putchar(n);
 }
 }
