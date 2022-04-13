@@ -1,4 +1,4 @@
-#include "main.h"
+0;10;1c0;10;1c#include "main.h"
 
 /**
  * print_times_table - Print n times a table
@@ -36,6 +36,8 @@ _putchar((prod / 10) + '0');
 _putchar((prod % 10) + '0');
 
 _putchar('\n');
+}
+}
 }
 }
 }
