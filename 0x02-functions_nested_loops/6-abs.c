@@ -5,9 +5,8 @@
  * print the absolute value of that integer
  */
 
-int _abs(int)
+int _abs(int n)
 {
-int n;
 int result;
  
 if (n < 0)
