@@ -20,8 +20,12 @@ if (n > 98)
 while (n-- >98)
 {
 _putchar(n);
-_putchar(" ");
+_putchar(' ');
 }
+}
+if (n == 98)
+{
+_putchar(n);
 }
 _putchar(',');
 }
