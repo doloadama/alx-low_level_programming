@@ -1,9 +1,0 @@
-#include "main.h"
-
-/**
- * int _abs - check the value of an integer
- * print the absolute value of that integer
- */
-
-int _abs(int)
-{
