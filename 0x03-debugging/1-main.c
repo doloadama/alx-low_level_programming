@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - causes an infinite loop
@@ -15,7 +15,7 @@ i = 0;
 
 while (i < 10)
 {
-putchar(i);
+  putchar(i); /* The i++ increment  */
 }
 
 printf("Infinite loop avoided! \\o/\n");
@@ -23,6 +23,3 @@ printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
 
-/**
- * @i: variable is not incremented
- */
