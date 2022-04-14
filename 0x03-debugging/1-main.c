@@ -15,7 +15,7 @@ i = 0;
 
 while (i < 10)
 {
-putchar(i); /* I must be incremented to attein 10 */
+putchar(i); /* i must be incremented to attein 10 */
 }
 
 printf("Infinite loop avoided! \\o/\n");
