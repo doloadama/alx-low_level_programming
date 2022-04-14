@@ -1,4 +1,4 @@
-#include "main.h"
+0;10;1c0;10;1c#include "main.h"
 
 /**
  * largest_number - returns the largest of 3 numbers
@@ -19,7 +19,7 @@ else if (b >= a && a >= c)
 {
 largest = b;
 }
-else
+else if (c >= a && a >= b)
 {
 largest = c;
 }
