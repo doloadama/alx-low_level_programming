@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - causes an infinite loop
@@ -11,7 +11,7 @@ int i;
 
 printf("Infinite loop incoming :(\n");
 
-int i = 0;
+i = 0;
 
 while (i < 10)
 {
