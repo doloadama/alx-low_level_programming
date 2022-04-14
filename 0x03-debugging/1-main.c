@@ -2,6 +2,7 @@
 
 /**
  * main - causes an infinite loop
+ * @i: is not incremented 
  * Return: 0
  */
 
@@ -15,7 +16,7 @@ i = 0;
 
 while (i < 10)
 {
-putchar(i); /* i must be incremented to attein 10 */
+putchar(i); 
 }
 
 printf("Infinite loop avoided! \\o/\n");
