@@ -2,7 +2,9 @@
 
 /**
  * print_square - prints a square
+ *
  * @size: the number of line
+ *
  * Return: 0
  */
 
