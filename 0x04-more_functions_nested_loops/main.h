@@ -1,5 +1,5 @@
-#ifndef "MAIN_H"
-#define "MAIN_H"
+#ifndef "_MAIN_H"
+#define "_MAIN_H"
 
 int _putchar(char c);
 int _isupper(int c);
@@ -19,4 +19,4 @@ int multi(int a, int b);
 
 
 
-#endif /* MAIN_H */
+#endif /* _MAIN_H_ */
