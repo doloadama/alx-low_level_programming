@@ -10,8 +10,10 @@
 
 void print_triangle(int size)
 {
-int row, column, espace;
-if (size <=0)
+int row;
+int column;
+int k;
+if (size <= 0)
 {
 _putchar('\n');
 }
