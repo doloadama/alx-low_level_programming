@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - print the number between 0 and 9
- * Return: the list of numbers 
+ * Return: the list of numbers
  */
 
 void print_numbers(void)
