@@ -21,7 +21,7 @@ else
 {
 for (row = 0; row < size; row++)
 {
-for (colum = size - row; column > 1; column++)
+for (column = size - row; column > 1; column++)
 _putchar(' ');
 for (k = 0; k <= row; k++)
 _putchar('#');
