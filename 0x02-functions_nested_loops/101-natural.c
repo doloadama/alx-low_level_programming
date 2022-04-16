@@ -17,7 +17,7 @@ if (n % 5 == 0)
 {
 five += n;
 }
-res += (tree + five);
+res = (tree + five);
 }
 printf("%d", res);
 return (0);
