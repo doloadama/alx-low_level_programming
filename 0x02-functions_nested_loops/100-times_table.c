@@ -16,7 +16,7 @@ for (num = 0; num <= n; num++)
 for (multi = 1; multi <= n; multi++)
 {
 prod = (multi * num);
-if (j != 0)
+if (multi != 0)
 {
 _putchar(',');
 _putchar(' ');
