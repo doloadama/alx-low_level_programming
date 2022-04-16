@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int n, res, tree = 0, five = 0;
+int n, res;
 for (n = 0; n < 1024; n++)
 {
 if (n % 3 == 0 || n % 5 == 5)
