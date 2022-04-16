@@ -7,7 +7,7 @@
 int main(void)
 {
 int n, res, tree, five;
-for (n = 1; n < 1024; n++)
+for (n = 0; n < 1024; n++)
 {
 if (n % 3 == 0)
 {
