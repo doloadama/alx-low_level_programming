@@ -17,7 +17,7 @@ for (i = 0; i <= 50; i++)
 k = i +j;
 i = j;
 j = k;
-printf("%d", k);
+printf("%lu", k);
 if (count == 49)
 putchar('\n');
 else
