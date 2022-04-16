@@ -8,9 +8,8 @@
 
 int main(void)
 {
-char h[] = "putchar";
+char h[] = "_putchar";
 int i;
-_putchar('_');
 for (i = 0; i <= 7; i++)
 {
 _putchar(h[i]);
