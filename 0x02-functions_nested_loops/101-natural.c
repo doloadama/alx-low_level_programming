@@ -13,7 +13,7 @@ if (n % 3 == 0 || n % 5 == 5)
 {
 res += n;
 }
-res = tree + five;
+}
 printf("%d", res);
 printf("\n");
 return (0);
