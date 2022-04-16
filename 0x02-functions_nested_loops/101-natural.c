@@ -6,19 +6,14 @@
  */
 int main(void)
 {
-int n, tree, five, res;
+int n,res;
 for (n = 0; n < 1024; n++)
 {
-if (n % 3 == 0)
+if (n % 3 == 0 || n % 5 == 0)
 {
-tree += n;
-}
-if (n % 5 == 0)
-{
-five += n;
-}
-res += (tree + five);
+res += i;
 }
 printf("%d", res);
+}
 return (0);
 }
