@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-int n, res, tree, five;
+int n, res, tree =0, five = 0;
 for (n = 0; n < 1024; n++)
 {
 if (n % 3 == 0)
 {
-tree += n;
+tree = tree + n;
 }
 if (n % 5 == 0)
 {
-five += n;
+five = five + n;
 }
 res += (tree + five);
 }
