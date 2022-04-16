@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - Print n times a table
- * @n: the integer 
+ * @n: the integer
  */
 
 void print_times_table(int n)
@@ -13,7 +13,7 @@ if (!(n > 15 || n < 0))
 {
 for (num = 0; num <= n; num++)
 {
-for (multi = 1; multi <= n; multi++)
+for (multi = 0; multi <= n; multi++)
 {
 prod = (multi * num);
 if (multi != 0)
