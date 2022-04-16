@@ -9,14 +9,9 @@ int main(void)
 int n, res, tree = 0, five = 0;
 for (n = 0; n < 1024; n++)
 {
-if (n % 3 == 0)
+if (n % 3 == 0 || n % 5 == 5)
 {
-tree += n;
-}
-if (n % 5 == 0)
-{
-five += n;
-}
+res += n;
 }
 res = tree + five;
 printf("%d", res);
