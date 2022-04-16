@@ -13,13 +13,13 @@ if (n % 3 == 0)
 {
 tree += n;
 }
-if ( n % 5 == 0)
+if (n % 5 == 0)
 {
 five += n;
 }
 res += (tree +five);
-printf("%d", res);
 }
+printf("%d", res);
 printf("\n");
 return (0);
 }
