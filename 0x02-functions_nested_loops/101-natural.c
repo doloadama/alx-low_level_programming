@@ -8,7 +8,9 @@ int main(void)
 {
 int n, res;
 for (n = 0; n < 1024; n++)
-if (n % 3 == 0 || n % 5 == 5)
+if (n % 3 == 0 )
+res += n;
+else if(n % 5 == 5)
 res += n;
 printf("%d", res);
 printf("\n");
