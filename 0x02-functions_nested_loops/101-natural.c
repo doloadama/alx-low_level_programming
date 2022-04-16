@@ -11,13 +11,13 @@ for (n = 0; n < 1024; n++)
 {
 if (n % 3 == 0)
 {
-tree = tree + n;
+tree += n;
 }
 if (n % 5 == 0)
 {
-five = five + n;
+five += n;
 }
-res = (tree + five);
+res += (tree + five);
 }
 printf("%d", res);
 return (0);
