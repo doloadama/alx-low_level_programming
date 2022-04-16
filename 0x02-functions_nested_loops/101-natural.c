@@ -6,18 +6,19 @@
  */
 int main(void)
 {
-int n, res;
+int n, res, tree, five;
 for (n = 0; n < 1024; n++)
 {
 if (n % 3 == 0 )
 {
-res += n;
+tree += n;
 }
 else if(n % 5 == 5)
 {
-res += n;
+five += n;
 }
 }
+res = five + tree;
 printf("%d", res);
 printf("\n");
 return (0);
