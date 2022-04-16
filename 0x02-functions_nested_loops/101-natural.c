@@ -13,7 +13,7 @@ if (n % 3 == 0)
 {
 tree += n;
 }
-else if(n % 5 == 5)
+if (n % 5 == 5)
 {
 five += n;
 }
