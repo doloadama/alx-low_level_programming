@@ -19,5 +19,6 @@ five += n;
 }
 res += (tree + five);
 }
-print ("%d", res);
+printf("%d", res);
+return (0);
 }
