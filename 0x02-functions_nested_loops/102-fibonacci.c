@@ -8,15 +8,20 @@
 int main(void)
 {
 
-int a, b, i, res;
+long count, i, j, k;
 
 for (i = 0; i <= 50; i++)
 {
-b = i - 2;
-a = i - 1;
-res = a + b;
-printf("%d,", res);
+k = i +j;
+i = j;
+j = k;
+printf("%d", k);
+if (count == 49)
+putchar('\n');
+else
+{
+printf(", ");
 }
-printf("\n");
+}  
 return (0);
 }
