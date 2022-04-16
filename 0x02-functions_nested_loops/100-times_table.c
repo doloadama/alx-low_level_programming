@@ -29,7 +29,7 @@ _putchar(' ');
 _putchar((prod % 10) + '0');
 }
 
-else if (prod <= 99 && prod >= 10)
+else if (prod < 100 && prod >= 10)
 {
 _putchar(' ');
 _putchar((prod / 10) + '0');
