@@ -13,7 +13,8 @@ if (n % 3 == 0 || n % 5 == 0)
 {
 res += n;
 }
-printf("%d\n", res);
+printf("%d", res);
 }
+printf("\n");
 return (0);
 }
