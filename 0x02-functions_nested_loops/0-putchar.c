@@ -11,7 +11,7 @@ int main(void)
 char h[] = "putchar";
 int i;
 _putchar('_');
-for (i = 0; i <= 8; i++)
+for (i = 0; i <= 7; i++)
 {
 _putchar(h[i]);
 }
