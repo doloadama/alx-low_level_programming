@@ -12,7 +12,7 @@ unsigned long count, i, j, k;
 i =0;
 j = 1;
 
-for (i = 0; i <= 50; i++)
+for (count = 0; count <= 50; count++)
 {
 k = i +j;
 i = j;
