@@ -8,7 +8,9 @@
 int main(void)
 {
 
-long count, i, j, k;
+unsigned long count, i, j, k;
+i =0;
+j = 1;
 
 for (i = 0; i <= 50; i++)
 {
