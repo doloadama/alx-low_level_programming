@@ -1,1 +1,1 @@
-My README file for debugging project :)
+MY README FILE FOR C DEVELOPING
