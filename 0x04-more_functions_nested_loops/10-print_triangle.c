@@ -12,7 +12,6 @@ void print_triangle(int size)
 {
 int row;
 int column;
-int k;
 if (size <= 0)
 {
 _putchar('\n');
