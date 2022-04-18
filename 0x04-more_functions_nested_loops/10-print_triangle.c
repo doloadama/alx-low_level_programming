@@ -20,7 +20,7 @@ _putchar(' ');
 for (column = size - row - 1; column <= size; column++)
 {
 _putchar('#');
-if (column == size -1 && row != size -1)
+if ((column == (size - 1)) && row != (size - 1)))
 _putchar('\n');
 }
 }
