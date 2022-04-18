@@ -3,7 +3,7 @@
 /**
  * print_triangle - print a triangle with #
  *
- * @size is the size of the triangle
+ * @size: is the size of the triangle
  *
  * Return: 0
  */
@@ -26,5 +26,7 @@ for (column = size - row - 1; column <= size; column++)
 _putchar('#');
 _putchar('\n');
 }
+
 }
+_putchar('\n');
 }
