@@ -18,7 +18,7 @@ for (column = 0; column < size - row - 1; column++)
 {
 _putchar(' ');
 }
-for (column = size - row - 1; column <= size; column++)
+for (column = size - row - 1; column < size; column++)
 {
 _putchar('#');
 if (column == size - 1 && row != size - 1)
