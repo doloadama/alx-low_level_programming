@@ -8,6 +8,7 @@
 
 void swap_nt(int *a, int *b)
 {
-**a = &b;
-**b = &a;
+*a = *a - *b;
+*b = *a+ *b;
+*a = *b - *a;
 }
