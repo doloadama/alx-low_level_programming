@@ -6,9 +6,9 @@
  * @b: a pointer and a parameter of the function
  */
 
-void swap_nt(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 *a = *a - *b;
-*b = *a+ *b;
+*b = *a + *b;
 *a = *b - *a;
 }
