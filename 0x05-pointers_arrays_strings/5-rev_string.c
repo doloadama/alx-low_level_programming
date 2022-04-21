@@ -16,8 +16,8 @@ char tmp;
 len = _strlen(s);
 while (*(rev++) != '\0')
 continue;
-rev = rev -2;
- 
+rev = rev - 2;
+
 for (i = 0; i < len / 2; ++i)
 {
 tmp = s[i];
