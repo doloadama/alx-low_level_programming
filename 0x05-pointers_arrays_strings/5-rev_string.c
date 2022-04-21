@@ -13,7 +13,7 @@ int len;
 char *rev = s;
 char tmp;
 len = _strlen(s);
-while (*(rev++) := '0')
+while (*(rev++) != '0')
 continue;
 rev = rev -2;
  
