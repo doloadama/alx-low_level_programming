@@ -15,7 +15,7 @@ int n;
 if ( len % 2 == 0)
 {
 n = len  / 2;
-for (i = n; i <= len - 1; ++i)
+for (i = n + 1; i <= len - 1; ++i)
 {
 _putchar(str[i]);
 }
@@ -24,7 +24,7 @@ _putchar(str[i]);
 else
 {
 n = (len - 1) / 2;
-for (i = n +1; i <= len - 1; ++i)
+for (i = n + 1; i <= len - 1; ++i)
 {
 _putchar(str[i]);
 }
