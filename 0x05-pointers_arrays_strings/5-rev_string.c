@@ -15,7 +15,6 @@ for (i = leng; i >= 0; i--)
 {
 _putchar(s[i]);
 }
-_putchar('\n');
 }
 /**
   * _strlen - return the lenght
