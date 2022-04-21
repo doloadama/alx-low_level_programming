@@ -10,6 +10,7 @@ void puts_half(char *str)
 {
 int len = _strlen(str);
 int i;
+int n;
 
 if ( len % 2 == 0)
 {
@@ -29,7 +30,7 @@ _putchar(str[i]);
 }
 _putchar('\n');
 }
-
+}
 /**
  * _strlen - return the lenght of an array
  * @s : the str
