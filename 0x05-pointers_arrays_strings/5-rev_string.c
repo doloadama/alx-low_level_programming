@@ -17,7 +17,7 @@ for (i = leng - 1; i <= 0; i--)
 {
 spec = s[i];
 }
-
+}
 /**
   * _strlen - return the lenght
   * @s: the parameter
