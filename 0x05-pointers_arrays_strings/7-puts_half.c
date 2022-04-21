@@ -12,7 +12,7 @@ int len = _strlen(str);
 int i;
 int n;
 
-if ( len % 2 == 0)
+if (len % 2 == 0)
 {
 n = len  / 2;
 for (i = n ; i <= len - 1; ++i)
