@@ -8,7 +8,6 @@
 void puts2(char *str)
 {
 int i = 0;
-int len = _strlen(str);
 
 if (str[0] != '\0')
 {
@@ -17,7 +16,7 @@ _putchar(str[i]);
 i += 2;
 }while ((str[i - 1] != '\0') && (str[i] != '\0'));
 }
-_putchar('\n')
+ _putchar('\n');
 
 
 
