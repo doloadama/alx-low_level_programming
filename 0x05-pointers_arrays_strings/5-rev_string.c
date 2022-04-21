@@ -11,11 +11,9 @@ void rev_string(char *s)
 int i;
 int leng;
 leng = _strlen(s);
-char a;
 for (i = leng - 1; i >= 0; i--)
 {
-a = s[i];
-_putchar(a);
+_putchar(s[i]);
 }
 }
 /**
