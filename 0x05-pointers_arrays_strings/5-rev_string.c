@@ -10,7 +10,7 @@ void rev_string(char *s)
 {
 int i;
 int leng;
-int spec;
+int *spec;
 leng = _strlen(s);
 
 for (i = leng - 1; i <= 0; i--)
