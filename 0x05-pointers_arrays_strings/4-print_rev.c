@@ -1,11 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_rev - Print a string in reverse
- *@s: the parameter
- */
-
-/**
  * _strlen - return the length of a string
  * @s: the pointer
  * Return: the lenght
@@ -19,6 +14,12 @@ i++;
 }
 return (i);
 }
+
+/**
+ * print_rev - Print the reversed string
+ *@s: the pointer
+ */
+
 void print_rev(char *s)
 {
 int  leng;
