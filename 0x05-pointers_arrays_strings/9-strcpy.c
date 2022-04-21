@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strcpy - function that copies the string pointed to 
+ * _strcpy - function that copies the string pointed to
  * src to the buffer pointed to by dest
  * @dest: pointer of a char type
  * @src: pointer of a char type
@@ -31,7 +31,7 @@ return (dest);
 int _strlen(char *s)
 {
 int i = 0;
-while ( s[i] != '\0')
+while (s[i] != '\0')
 i++;
 return (i);
 }
