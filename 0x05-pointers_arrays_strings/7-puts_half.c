@@ -15,7 +15,7 @@ int n;
 if ( len % 2 == 0)
 {
 n = len  / 2;
-for (i = n; i < len; ++i)
+for (i = n; i <= len - 1; ++i)
 {
 _putchar(str[i]);
 }
