@@ -6,7 +6,7 @@
  */
 
 /**
- * _strlen - Return thelength
+ * _strlen - Return the length
  * @s: the pointer
  * Return: the lenght
  */
