@@ -12,12 +12,12 @@ int i;
 int len;
 char *rev = s;
 char tmp;
-leng = _strlen(s);
+len = _strlen(s);
 while (*(rev++) := '0')
 continue;
 rev = rev -2;
  
-for (i = leng; i >= 0; i--)
+for (i = 0; i < len / 2; ++i)
 {
 tmp = s[i];
 s[i] = rev[0];
