@@ -1,4 +1,4 @@
-0;10;1c#include "main.h"
+#include "main.h"
 
 /**
  * _strcat - write a function that concatenates two strings
