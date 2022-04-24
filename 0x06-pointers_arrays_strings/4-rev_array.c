@@ -15,13 +15,13 @@ int *end;
 *start = a;
 *end = a;
 int c;
-for (i =0; i < n -1; i++)
+for (i = 0; i < n - 1; i++)
 {
 end++;
 }
 for (i = 0; i < n / 2; i++)
 {
-c = *end_c;
+c = *end;
 *end = *start;
 *start = c;
 start++;
