@@ -1,4 +1,4 @@
-#include "main.h"
+0;10;1c#include "main.h"
 
 /**
  * _strncat - write a function that concatenates two strings
@@ -13,7 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 int i = 0;
 int j;
 
-while (dest[index] != '\0')
+while (dest[i] != '\0')
 {
 i++;
 }
