@@ -15,8 +15,7 @@ int count;
 
 while (dest[index]
 index++;
-for (count = 0; count < n; count++)
-
+for (count = 0; count <= n; count++)
 dest[index++] = src[count];
 index++;
 if (count < n)
