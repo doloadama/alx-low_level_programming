@@ -9,7 +9,7 @@ char *cap_string(char *str)
 {
 int i = 0;
 int j;
-char a[] = ",;.!?\"(){}";
+char a[] = " \t\n,;.!?\"(){}";
 
 while (*(str + i))
 {
