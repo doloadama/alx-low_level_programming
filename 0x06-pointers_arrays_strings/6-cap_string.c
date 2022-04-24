@@ -19,7 +19,7 @@ if (i == 0)
 *(str + i) -= 'a' - 'A';
 else
 {
-for (j = 0; j <= 12; j++)
+for (j = 0; j <= 10; j++)
 {
 if (a[j] == *(str + i - 1))
 *(str + i) -= 'a' - 'A';
