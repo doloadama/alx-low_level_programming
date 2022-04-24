@@ -16,5 +16,6 @@ while (*i != '\0' && *j != '\0' && *i == *j)
 i++;
 j++;
 }
-return (*i - *j);
+test = *i - *j;
+return (test);
 }
