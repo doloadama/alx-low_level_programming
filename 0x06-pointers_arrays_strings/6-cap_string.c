@@ -26,6 +26,7 @@ if (a[j] == *(str + i - 1))
 }
 }
 }
+i++;
 }
 return (str);
 }
