@@ -9,6 +9,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
+
 int *i = s1;
 int *j = s2;
 while (*i != '\0' && *j != '\0' && *i == *j)
@@ -16,6 +17,6 @@ while (*i != '\0' && *j != '\0' && *i == *j)
 i++;
 j++;
 }
-test = *i - *j;
+test = (*i - *j);
 return (test);
 }
