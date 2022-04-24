@@ -21,7 +21,7 @@ else
 {
 for (j = 0; j <= 12; j++)
 {
-if (a[j] == *(str + i - 1)
+if (a[j] == *(str + i - 1))
 *(str + i) -= 'a' - 'A';
 }
 }
