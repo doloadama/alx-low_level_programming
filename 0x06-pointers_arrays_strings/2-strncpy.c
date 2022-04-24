@@ -5,6 +5,7 @@
  * @dest: the destination array
  * @src: the source array
  * @n: the number of bytes
+ * Return: the copied string
  */
 
 char *_strncpy(char *dest, char *src, int n)
