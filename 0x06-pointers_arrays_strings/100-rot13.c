@@ -4,7 +4,7 @@
 /**
  * rot13 - encodes a string using rot13
  * @c: the string to be encoded
- * Return : c
+ * Return: c
  */
 
 
@@ -19,7 +19,7 @@ for (j = 0; j <= 51; j++)
 {
 if (a[j] == *(c + i))
 {
-*(c +i) = b[j];
+*(c + i) = b[j];
 break;
 }
 }
