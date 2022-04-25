@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -16,8 +17,11 @@ for (i = 0; *(c + i); i++)
 {
 for (j = 0; j <= 51; j++)
 {
-if (a[j] == c[i])
-c[i] = b[j];
+if (a[j] == *(c + i))
+{
+*(c +i) = b[j];
+break;
+}
 }
 }
 return (c);
