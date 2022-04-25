@@ -10,18 +10,15 @@
 char *rot13(char *c)
 {
 int i, j;
-char a[]="ABCDEFGHIJKLM";
-char b[]="NOPQRSTUVWXYZ";
+char a[] = "ABCDEFGHIJKLM";
+char b[] = "NOPQRSTUVWXYZ";
 for (i = 0; *(c + i); i++)
 {
-for (j = 0; j < 13; j++)
+for (j = 0; j <= 12; j++)
 {
 if (a[j] == c[i])
-{
 c[i] = b[j];
 }
-}
-
 }
 return (c);
 }
