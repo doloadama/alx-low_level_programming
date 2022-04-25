@@ -18,6 +18,8 @@ for (j = 0; j <= 12; j++)
 {
 if (a[j] == c[i])
 c[i] = b[j];
+else
+c[i] = '\0';
 }
 }
 return (c);
