@@ -2,7 +2,7 @@
 #define NULL 0
 /**
  * _strpbrk - searches a string for any of a set of bytes
- * @s: the string 
+ * @s: the string
  * @accept: target matches
  * Return: s
  */
