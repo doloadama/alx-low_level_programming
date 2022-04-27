@@ -15,7 +15,7 @@ if (needle[0] == '\0')
 return (haystack);
 while (haystack[i] != '\0')
 {
-if (haystack[i] == needle[0])
+if (haystack[k] == needle[0])
 
 x = i, j = 0;
 i++, j++;
@@ -28,5 +28,5 @@ return (haystack + i);
 }
 i++;
 }
-return(NULL)
+return (NULL);
 }
