@@ -22,9 +22,9 @@ count++;
 break;
 }
 if (accept[j + 1] == '\0' && s[i] != accept[j])
-return (matches);
+return (count);
 }
 i++;
 }
-return (matches);
+return (count);
 }
