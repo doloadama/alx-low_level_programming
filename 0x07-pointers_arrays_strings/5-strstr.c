@@ -1,5 +1,5 @@
 #include "main.h"
-
+#define NULL 0
 /**
  * _strstr - locates a substring
  * @haystack: the string
@@ -24,7 +24,7 @@ if (needle[i] == needle[j]
 return (haystack + i);
 }
 }
-i ++;
+i++;
 }
 return(NULL)
 }
