@@ -13,7 +13,7 @@ if (*(s + i) != '\0')
 return;
 
 }
-_putchar(*(s + i));
+return (*(s + i));
 i++;
-_putchar('\n');
+return ('\n');
 }
