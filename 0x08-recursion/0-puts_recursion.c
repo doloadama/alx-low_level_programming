@@ -11,7 +11,7 @@ int i = 0, j;
 char c;
 while (s[i] != '\0')
 {
-_putchar(s);
+_putchar(s[i]);
 i++;
 }
 _putchar('\n');
