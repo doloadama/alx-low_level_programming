@@ -13,11 +13,11 @@ if (*s == '\0')
 _putchar('\n');
 return;
 }
-char tmp;
+char t;
 char *rev = s;
-tmp = *s;
+t = *s;
 *s = rev[0];
-rev[0] = tmp;
+rev[0] = t;
 rev--;
 s++;
 _print_rev_recursion(rev);
