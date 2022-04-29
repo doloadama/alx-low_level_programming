@@ -12,6 +12,6 @@ if (*s == '\0')
 {
 return;
 }
-
-return (_strlen_recursion(s + 1) + 1);
+s++;
+return (_strlen_recursion(s) + 1);
 }
