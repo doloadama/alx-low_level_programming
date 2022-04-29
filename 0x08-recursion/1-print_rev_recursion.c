@@ -14,7 +14,7 @@ _putchar('\n');
 return;
 }
 char tmp;
-char *rev = s
+char *rev = s;
 tmp = *s;
 *s = rev[0];
 rev[0] = tmp;
