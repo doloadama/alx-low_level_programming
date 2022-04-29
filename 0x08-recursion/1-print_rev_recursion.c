@@ -13,7 +13,7 @@ if (*s == '\0')
 _putchar('\n');
 return;
 }
-char t;
+char *t = s;
 char *rev = s;
 t = *s;
 *s = rev[0];
