@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+ * is_prime_number - returns 1 if the input integer is prime number
+ * @n: the input integer
+ * Return: 1
+ */
+
+int is_prime_number(int n)
+{
+  if (n / 1 == n && n / n == 1
