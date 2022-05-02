@@ -19,12 +19,11 @@ if (haystack[k] == needle[0])
 i++, j++;
 break;
 }
-if (needle[i] == needle[j]
+if (needle[i] == needle[j])
 {
 return (haystack + i);
 }
 }
-i++;
 }
 return (NULL);
 }
