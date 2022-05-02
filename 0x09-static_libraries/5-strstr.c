@@ -16,8 +16,6 @@ return (haystack);
 while (haystack[i] != '\0')
 {
 if (haystack[k] == needle[0])
-
-x = i, j = 0;
 i++, j++;
 break;
 }
