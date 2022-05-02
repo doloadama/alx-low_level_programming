@@ -1,5 +1,5 @@
 #!/bin/bash
 
 gcc -c *.c
-ar rc libtout.a *.o
+ar rc libmy.a *.o
 ranlib libmy.a
