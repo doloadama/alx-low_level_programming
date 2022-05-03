@@ -4,7 +4,7 @@
  * main - Multiplies two numbers
  * @argc: the counter
  * @argv: the array
- * Return:
+ * Return: 0 if true and 1 id error
  */
 
 int main(int argc, char *argv[])
