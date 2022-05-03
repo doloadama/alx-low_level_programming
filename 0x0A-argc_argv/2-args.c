@@ -7,10 +7,13 @@
  * Return: 0
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
-while (argc--)
-printf("%s\n", *argv++);
+int i;
+for (i = 1; i < argc; i++)
+{
+printf("%s\n", argv[i]);
+}
 return (0);
 }
 
