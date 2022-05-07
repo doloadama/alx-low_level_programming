@@ -17,12 +17,12 @@ if (str  == NULL)
 return(NULL);
 for (a = 0; str[a] != '\0'; a++)
 c = (char *) malloc((a + 1) * sizeof(char));
-if (s == NULL)
+if (c == NULL)
 return (NULL);
 
 for (b = 0; b < a; b++)
-s[b] = str[b];
-s[a + 1] = '\0';
-return (s);
+c[b] = str[b];
+c[a + 1] = '\0';
+return (c);
 
 }
