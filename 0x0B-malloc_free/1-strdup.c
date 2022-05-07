@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * strdup - function returns a pointer to a new string
+ * _strdup - function returns a pointer to a new string
  * which is a duplicate of the string str
  * @str: pointer to a string in parameter
  * Return: returns a copy of the string given as a parameter
@@ -16,7 +16,7 @@ int a, b;
 if (str  == NULL)
 return (NULL);
 for (a = 0; str[a] != '\0'; a++)
-c = (char *) malloc((a - 1) * sizeof(char));
+c = (char *) malloc(sizeof(str));
 if (c == NULL)
 return (NULL);
 
