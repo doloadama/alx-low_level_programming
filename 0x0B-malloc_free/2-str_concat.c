@@ -14,28 +14,27 @@ char *str_concat(char *s1, char *s2)
 {
 int a, b;
 char *con;
-while (s1[a] != '\0')
+for (a = 0; s1[a] != '\0'; a++)
 {
-a++;
 }
-while (s2[b] != '\0')
+for (b = 0; s2[b] != '\0'; b++)
 {
-b++;
 } 
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
 con = (char *) malloc(((a + b) + 1) * sizeof(char));
+if (con ==NULL)
+return (NULL);
 for (a = 0; s1[a] != '\0'; a++)
 {
 con[a] = s1[a];
 }
 for (b = 0; s2[b] != '\0'; b++)
 {
-con[a] = s1[b];
+con[a] = s2[b];
 a++;
 }
-s2[b + 1] = '\0';
 return (con);
 }
