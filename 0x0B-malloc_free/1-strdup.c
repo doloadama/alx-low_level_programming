@@ -16,13 +16,12 @@ int a, b;
 if (str  == NULL)
 return (NULL);
 for (a = 0; str[a] != '\0'; a++)
-c = malloc(sizeof(*str));
+c = malloc(sizeof(str));
 if (c == NULL)
 return (NULL);
-
 for (b = 0; b < a; b++)
 c[b] = str[b];
 c[a + 1] = '\0';
 return (c);
-
+free(str);
 }
