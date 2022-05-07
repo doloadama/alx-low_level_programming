@@ -16,7 +16,7 @@ int a, b;
 if (str  == NULL)
 return (NULL);
 for (a = 0; str[a] != '\0'; a++)
-c = malloc(strlen(str) + 1);
+c = malloc(sizeof(*str));
 if (c == NULL)
 return (NULL);
 
