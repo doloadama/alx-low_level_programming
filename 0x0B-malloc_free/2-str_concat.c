@@ -4,8 +4,8 @@
 
 /**
  * str_concat - function that concatenates two strings
- * @s1: 
- * @s2:
+ * @s1: the first string
+ * @s2: the soncond string
  *
  * Return: NULL on failure or a pointer to a newly allocated space
  */
@@ -21,11 +21,15 @@ for (b = 0; s2[b] != '\0'; b++)
 {
 } 
 if (s1 == NULL)
+{
 s1 = "";
+}
 if (s2 == NULL)
+{
 s2 = "";
+}
 con = (char *) malloc(((a + b) + 1) * sizeof(char));
-if (con ==NULL)
+if (con == NULL)
 return (NULL);
 for (a = 0; s1[a] != '\0'; a++)
 {
