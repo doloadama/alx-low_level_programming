@@ -55,7 +55,7 @@ for (index = 0; index < ac && av[index]; index++)
 {
 sumString += _strlen(av[index]);
 }
-newString = malloc((sumString * sizeof(char)) + ac);
+newString = malloc((sumString *sizeof(char)) + ac);
 for (index = 0; index < ac && av[index]; index++)
 {
 newString = _strcat(newString, av[index]);
