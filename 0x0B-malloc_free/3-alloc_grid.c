@@ -24,7 +24,8 @@ for (row = 0; row < height; row++)
 {
 for (col = 0; col < width; col++)
 {
-i[row][col] = 0;
+i[row][] = 0;
+i[][col] = 0;
 }
 }
 return (i);
