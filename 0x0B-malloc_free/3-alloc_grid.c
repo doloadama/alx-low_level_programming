@@ -20,19 +20,6 @@ i = (int **) malloc(sizeof(int *) * (height * width));
 if (i == NULL)
 free(i);
 return (NULL);
-for (row = 0; row < height; i++)
-{
-i[row] = malloc(sizeof(int) * width);
-if (i[row] == NULL)
-{
-for (row = 0; row < height; i++)
-{
-free(i[row]);
-}
-free(i);
-return (NULL);
-}
-}
 for (row = 0; row < height; row++)
 {
 for (col = 0; col < width; col++)
