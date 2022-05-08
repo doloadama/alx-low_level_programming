@@ -51,9 +51,10 @@ char *argstostr(int ac, char **av)
 int index, sumString;
 char *newString;
 sumString = 1;
-
 if (ac == 0 || av == NULL)
+{
 return (0);
+}
 for (index = 0; index < ac && av[index]; index++)
 {
 sumString += _strlen(av[index]);
