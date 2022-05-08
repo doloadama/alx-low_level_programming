@@ -12,7 +12,6 @@
 
 char *argstostr(int ac, char **av)
 {
-#include "holberton.h"
 
 /**
  * _strcat - Concat string, src appended to dest
