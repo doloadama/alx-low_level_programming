@@ -15,8 +15,7 @@ int row, col;
 int **i;
 
 if (width <= 0 || height <= 0)
-  return (NULL);
-
+return (NULL);
 i = (int **) malloc(sizeof(int *) * height);
 if (i == NULL)
 free(i);
@@ -35,7 +34,7 @@ return (NULL);
 }
 }
 for (row = 0; row < height; row++)
-for ( col = 0; col < width; col++)
+for (col = 0; col < row; col++)
 {
 i[row][col] = 0;
 }
