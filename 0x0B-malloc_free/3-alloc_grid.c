@@ -17,14 +17,14 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-nb = malloc(height * sizeof(int *);
+nb = malloc(height * sizeof(int *));
 if (nb == NULL)
 {
 return (NULL);
 }
 for (row = 0; row < height; row++)
 {
-  nb[row] = malloc(width * sizeof(int));
+nb[row] = malloc(width * sizeof(int));
 if (nb[row] == NULL)
 {
 for (col = 0; col < row; col++)
