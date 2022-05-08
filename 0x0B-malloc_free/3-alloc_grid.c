@@ -16,7 +16,7 @@ int **i;
 
 if (width <= 0 || height <= 0)
 return (NULL);
-i = (int **) malloc(sizeof(int *) * height);
+i = (int **) malloc(sizeof(int *) * (height * width));
 if (i == NULL)
 free(i);
 return (NULL);
