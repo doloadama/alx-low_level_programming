@@ -21,7 +21,7 @@ free(ptr);
 return (s);
 }
 if (new_size == old_size)
-
+{
 return (ptr);
 }
 if (ptr == NULL)
