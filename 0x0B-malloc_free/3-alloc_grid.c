@@ -34,7 +34,7 @@ return (NULL);
 }
 }
 for (row = 0; row < height; row++)
-for (col = 0; col < width % 10; col++)
+for (col = row; col < width % 10; col++)
 {
 i[row][col] = 0;
 }
