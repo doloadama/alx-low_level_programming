@@ -4,7 +4,7 @@
 
 /**
  * argstostr - concatenates two arguments of your program
- * @ac: the arguments 
+ * @ac: the arguments
  * @av: pointer to the arguments
  * Return: a pointer to a new string or Null if it fails
  * Each argument should be followed by a \n in the new string
@@ -14,7 +14,7 @@ char *argstostr(int ac, char **av)
 {
 int size, c, c1, c2 = 0;
 char *src;
-if ( ac == 0 || av == NULL)
+if (ac == 0 || av == NULL)
 {
 return (NULL);
 }
@@ -25,9 +25,9 @@ for (c1 = 0; av[c][c1] != '\0'; c1++)
 size += 1;
 }
 size += 1;
+src = malloc(sizeof(char) * size);
 }
 size += 1;
-src = malloc(sizeof(char) * size);
 if (src == NULL)
 {
 free(src);
@@ -46,4 +46,3 @@ c2++;
 src[c2] = '\0';
 return (src);
 } 
-   
