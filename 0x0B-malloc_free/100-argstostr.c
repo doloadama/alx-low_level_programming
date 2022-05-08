@@ -1,17 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
-
-/**
- * argstostr - concatenates two arguments of your program
- * @ac: the arguments
- * @av: pointer to the arguments
- * Return: a pointer to a new string or Null if it fails
- * Each argument should be followed by a \n in the new string
- */
-
-char *argstostr(int ac, char **av)
-{
 
 /**
  * _strcat - Concat string, src appended to dest
@@ -22,15 +9,16 @@ char *argstostr(int ac, char **av)
  */
 char *_strcat(char *dest, char *src)
 {
-int a, b;
-for (a = 0; dest[a] != '\0'; a++)
-;
-for (b = 0; src[b] != '\0'; b++)
-{
-dest[a] = src[b];
-a++;
-}
-return (dest);
+        int a, b;
+
+        for (a = 0; dest[a] != '\0'; a++)
+                ;
+        for (b = 0; src[b] != '\0'; b++)
+        {
+                dest[a] = src[b];
+                a++;
+        }
+        return (dest);
 }
 
 /**
@@ -42,10 +30,11 @@ return (dest);
  */
 int _strlen(char *s)
 {
-int a;
-for (a = 0; s[a] != '\0'; a++)
-;
-return (a);
+	int a;
+
+	for (a = 0; s[a] != '\0'; a++)
+		;
+	return (a);
 }
 
 /**
@@ -59,22 +48,24 @@ return (a);
 
 char *argstostr(int ac, char **av)
 {
-int index, sumString;
-char *newString;
-sumString = 1;
-if (ac == 0 || av == NULL)
-return (0);
-for (index = 0; index < ac && av[index]; index++)
-{
-sumString += _strlen(av[index]);
-}
-newString = malloc((sumString * sizeof(char)) + ac);
-for (index = 0; index < ac && av[index]; index++)
-{
-newString = _strcat(newString, av[index]);
-newString = _strcat(newString, "\n");
-}
-if (newString == NULL)
-return (NULL);
-return (newString);
+	int index, sumString;
+	char *newString;
+
+	sumString = 1;
+
+	if (ac == 0 || av == NULL)
+		return (0);
+	for (index = 0; index < ac && av[index]; index++)
+	{
+		sumString += _strlen(av[index]);
+	}
+	newString = malloc((sumString * sizeof(char)) + ac);
+	for (index = 0; index < ac && av[index]; index++)
+	{
+		newString = _strcat(newString, av[index]);
+		newString = _strcat(newString, "\n");
+	}
+	if (newString == NULL)
+		return (NULL);
+	return (newString);
 }
