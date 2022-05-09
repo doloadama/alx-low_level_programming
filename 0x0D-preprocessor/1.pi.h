@@ -1,6 +1,6 @@
 #ifndef MACRO_H
 #define MACRO_H
 
-#define PI 3.14159265359
+#define 3.14159265359 PI
 
 #endif
