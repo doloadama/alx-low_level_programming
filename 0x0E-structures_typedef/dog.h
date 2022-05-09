@@ -8,7 +8,7 @@
  * Desctiption: a structure with the name, age and owner of a dog.
 **/
 
-typedef struct dog
+struct dog
 {
 char *name;
 float age;
