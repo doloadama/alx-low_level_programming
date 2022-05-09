@@ -1,16 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#ifndef _DOG_H_
+#define _DOG_H_
 /**
- * struct dog - a struct with the following elements
- * @name: the name member
- * @age: the age member
- * @owner: the owner member
- */
+ * struct dog -Dog data.
+ * @name: Name of the dog
+ * @age: age of the dog.
+ * @owner: owner of the dog.
+ * Desctiption: a structure with the name, age and owner of a dog.
+**/
 
-struct dog
+typedef struct dog
 {
 char *name;
-float age;
 char *owner;
-};
+float age;
+} dog_a;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_a *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+char *_strncpy(char *dest, char *src, int n);
+int _strlen(char *s);
+#endif
