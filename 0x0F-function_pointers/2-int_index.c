@@ -17,8 +17,8 @@ if (size > 0 && array && cmp)
 {
 for (i = 0; i < size; i++)
 {
-r = cmp(array[i]);
-if (r)
+j = cmp(array[i]);
+if (j)
 break;
 }
 if (i < size)
