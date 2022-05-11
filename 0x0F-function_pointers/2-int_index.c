@@ -4,9 +4,10 @@
 
 /**
  * int_index - searches for an integer
- * @array: the array 
+ * @array: the array
  * @size: size of the array
  * @cmp: pointer to the function to be used to compare values
+ * Return: -1 if no element matches or size <= 0, void
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
