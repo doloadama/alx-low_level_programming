@@ -23,7 +23,7 @@ if (str)
 printf("%s", str);
 else
 printf("nill");
-if (i < n -1)
+if (i < n - 1)
 if (separator)
 printf("%s", separator);
 }
