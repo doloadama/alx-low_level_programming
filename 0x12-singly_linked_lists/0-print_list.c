@@ -13,7 +13,7 @@ size_t print_list(const list_t *h)
 unsigned int i;
 const list_t *a;
 a = h;
-str = malloc(sizeof(list_t));
+list_t.str = malloc(sizeof(list_t));
 for (i = 0; a; i++)
 {
 if (str == NULL)
