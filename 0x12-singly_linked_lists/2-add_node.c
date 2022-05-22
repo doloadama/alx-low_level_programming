@@ -27,6 +27,7 @@ if(new->str == NULL)
 free(new);
 return(NULL);
 }
+new->len = _strlen(new->str);
 new->next = *head;
 *head = new;
 return (new);
