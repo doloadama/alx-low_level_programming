@@ -12,8 +12,10 @@ void free_list(list_t *head)
 
 list_t *temp, *suivant;
 temp = head;
-
-while(temp != NULL)
+if (*head == NULL)
+{
+return (NULL);
+while (temp != NULL)
 {
 suivant = temp->next;
 free(temp->str);
