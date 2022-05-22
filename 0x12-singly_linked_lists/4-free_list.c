@@ -15,6 +15,7 @@ temp = head;
 if (*head == NULL)
 {
 return (NULL);
+}
 while (temp != NULL)
 {
 suivant = temp->next;
