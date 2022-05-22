@@ -12,10 +12,6 @@ void free_list(list_t *head)
 
 list_t *temp, *suivant;
 temp = head;
-if (*head == NULL)
-{
-return (NULL);
-}
 while (temp != NULL)
 {
 suivant = temp->next;
