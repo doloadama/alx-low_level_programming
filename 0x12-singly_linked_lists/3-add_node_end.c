@@ -27,11 +27,11 @@ return (NULL);
 }
 new->len = strlen(new->str);
 new->next = NULL;
-return (new);
 if (*head == NULL)
+{
 *head = new;
 return (new);
-
+}
 temp = *head;
 while (temp->next)
 temp = temp->next;
