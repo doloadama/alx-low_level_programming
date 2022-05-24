@@ -11,16 +11,16 @@
 
 void free_listint2(listint_t **head)
 {
-listint_int *suivant;
+listint_t *suivant;
 if (head == NULL)
 return;
 
-while (*head->next != NULL)
+while (*head != NULL)
 {
-suivant = (*head)->next
+suivant = (*head)->next;
 free(*head);
 *head = suivant;
 }
-(*head)->next = NULL;
+*head = NULL;
 } 
  
