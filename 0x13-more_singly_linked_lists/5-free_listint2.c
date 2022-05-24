@@ -19,6 +19,6 @@ suivant = (*head)->next
 free(*head);
 *head = suivant;
 }
-*head = NULL;
+(*head)->next = NULL;
 } 
  
