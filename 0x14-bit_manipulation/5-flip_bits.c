@@ -11,9 +11,9 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 
-int odd, ver;
-int i, nb;
-int longueur = sizeof(unsigned long int) * 8;
+unsigned long int odd, ver;
+unsigned long int i, nb;
+int longueur = (sizeof(unsigned long int) * 8);
 
 nb = 0;
 ver = 1;
@@ -23,7 +23,7 @@ for (i = 0; i < longueur; i++)
 
 if (ver == (odd & ver))
 nb++;
-ver <<= 1;
+ver >>= 1;
 }
 return (nb);
 }
