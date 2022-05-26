@@ -15,8 +15,8 @@ unsigned int ui = 0;
 
 for (i = 0; b[i] != '\0'; i++)
 {
-if (b[i] != '0' && b[i] != '1')
-return (NULL);
+if (b[i] != '0'|| b[i] != '1')
+return (0);
 ui <<= 1;
 if (b[i] == '1')
 ui += 1;
