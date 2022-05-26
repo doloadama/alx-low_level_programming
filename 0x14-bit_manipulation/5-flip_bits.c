@@ -17,7 +17,7 @@ odd = n ^ m;
 while (odd)
 {
 if (odd & 1)
-ver ++;
+ver++;
 odd = odd >> 1;
 }
 return (ver);
