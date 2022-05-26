@@ -11,16 +11,14 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 
-unsigned long int odd, ver;
+unsigned long int odd = 0, ver = 0;
 
-ver = 0;
 odd = n ^ m;
-
 while (odd)
 {
 if (odd & 1)
 ver ++;
-ver = ver >> 1;
+odd = odd >> 1;
 }
 return (ver);
 }
