@@ -20,7 +20,7 @@ while (odd)
 {
 if (odd & 1)
 ver ++;
-ver >>= 1;
+ver = ver >> 1;
 }
-return (nb);
+return (ver);
 }
