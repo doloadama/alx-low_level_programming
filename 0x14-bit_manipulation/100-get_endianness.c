@@ -13,5 +13,5 @@ char *l;
 
 x = 1;
 l = (char *)&b;
-return (*y);
+return (*l);
 }
