@@ -16,9 +16,9 @@ unsigned int i;
 if (head == NULL)
 {
 return (NULL);
-} 
+}
 
-for (i = 0; i< index; i++)
+for (i = 0; i < index; i++)
 {
 if (head == NULL)
 {
