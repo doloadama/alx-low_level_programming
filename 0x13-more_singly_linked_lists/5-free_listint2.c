@@ -4,7 +4,7 @@
 
 /**
  * free_listint2 - frees a listint_t list
- * @head: a pointer to a pointer 
+ * @head: a pointer to a pointer
  * Return: nothing
  */
 
@@ -22,5 +22,5 @@ free(*head);
 *head = suivant;
 }
 *head = NULL;
-} 
- 
+}
+
