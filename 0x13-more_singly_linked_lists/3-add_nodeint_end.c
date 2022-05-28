@@ -30,7 +30,7 @@ return (new);
 }
 
 actuel = *head;
- 
+
 while (actuel->next != NULL)
 {
 actuel = actuel->next;
