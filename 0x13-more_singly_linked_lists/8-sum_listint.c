@@ -17,7 +17,6 @@ if (head == NULL)
 {
 return (0);
 }
-sum = head->n;
 
 while (head)
 {
