@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-/**
- * test_it_out - a function to print before execution of the main function
- * the __attribute__ ((constructor))
- * Return: void 
- */
-
 void first(void) __attribute__ ((constructor));
+
+/**
+ * first - function that prints before the main is executed
+ * Return: void
+ */
 
 void first(void)
 {
