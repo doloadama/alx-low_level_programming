@@ -11,8 +11,8 @@
 int pop_listint(listint_t **head)
 {
 
-linstint_t *take;
-int value = 0;
+listint_t *take;
+int valeur = 0;
 
 if (*head == NULL)
 {
