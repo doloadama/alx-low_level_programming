@@ -20,7 +20,11 @@ return (NULL);
 
 for (i = 0; i< index; i++)
 {
+if (head == NULL)
+{
+return (NULL);
+}
 head = head->next;
 }
-return(head);
+return (head);
 }
