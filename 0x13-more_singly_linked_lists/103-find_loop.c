@@ -15,7 +15,7 @@ boucle = repet = head;
 
 while (boucle && repet && repet->next)
 {
-boucle = boucle ->next;
+boucle = boucle->next;
 repet = repet->next->next;
 if (boucle == repet)
 {
