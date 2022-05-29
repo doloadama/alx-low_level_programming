@@ -20,7 +20,7 @@ return (*head);
 precedant = NULL;
 
 while (*head)
-
+{
 suivant = (*head)->next;
 (*head)->next = precedant;
 precedant = *head;
