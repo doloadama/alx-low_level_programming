@@ -3,17 +3,17 @@
 #include "lists.h"
 
 /**
- * add - add a memory space for an array of pointers
+ * del - add a memory space for an array of pointers
  * @list: the old list
  * @size: size of the new list
  * @new: new node to add to the list
  * Return: pointer to the new list
  */
 
-const listint_t **add(const listint_t **list, size_t size,
-const listint_t *new)
+listint_t **del(listint_t **list, size_t size,
+listint_t *new)
 {
-const listint_t **nouvelle;
+listint_t **nouvelle;
 size_t i;
 
 nouvelle = malloc(size * sizeof(listint_t *));
@@ -57,7 +57,7 @@ return (num);
 }
 }
 num++;
-list = _ra(list, num, *head);
+list = del(list, num, *head);
 next = (*head)->next;
 free(*head);
 *head = next;
