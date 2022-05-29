@@ -60,7 +60,7 @@ return (nombre);
 
 nombre++;
 list = add(list, nombre, head);
-printf("[%p], %d\n", (void *)head, head->n);
+printf("[%p] %d\n", (void *)head, head->n);
 head = head->next;
 }
 
