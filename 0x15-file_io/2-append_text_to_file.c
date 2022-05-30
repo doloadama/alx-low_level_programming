@@ -30,7 +30,7 @@ if (text_content != NULL)
 ln = write(fd, text_content, strlen(text_content));
 close(fd);
 
-if (len == -1)
+if (ln == -1)
 return (-1);
 return (1);
 }
