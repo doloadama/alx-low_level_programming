@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <string.h>
 /**
  * create_file - creates a file
  * @filename: the filename
@@ -31,7 +31,7 @@ return (-1);
 if (text_content != NULL)
 ln = write(fd, text_content, strlen(text_content));
 close(fd);
-if (len == -1)
+if (ln == -1)
 return (-1);
 return (1);
 }
