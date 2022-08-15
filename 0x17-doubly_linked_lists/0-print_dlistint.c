@@ -5,7 +5,7 @@
 /**
  * print_dlistint - Prints all the elements of a double linked list.
  * @h: The double linked lists to prints.
- * Return; the number of node of the DDL.
+ * Return: the number of node of the DDL.
  */
 
 
