@@ -1,6 +1,6 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stdio.h>
+
+
 /**
  * dlistint_len - Counts the number of elements in a doubly linked list.
  * @h: the doubly linked list.
@@ -13,8 +13,8 @@ int longueur = 0;
 
 while (h != NULL)
 {
-++longueur;
 h = h->next;
+longueur++;
 }
 
 return (longueur);
