@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * dlistint_len - Counts the number of elements in a doubly linked list
- * @h: the doubly linked list
- * Return: the number of elements in the DDL
+ * dlistint_len - Counts the number of elements in a doubly linked list.
+ * @h: the doubly linked list.
+ * Return: the number of elements in the DDL.
  */
 
 size_t dlistint_len(const dlistint_t *h)
