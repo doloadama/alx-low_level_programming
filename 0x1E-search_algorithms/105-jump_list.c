@@ -15,7 +15,7 @@ size_t i = 0;
 listint_t *res = NULL;
 
 res = node;
-for (i = 0; (i < n) && (res) && (res->next); i++)
+for (i = 0; (i < n) &&(res) &&(res->next); i++)
 res = res->next;
 return (res);
 }
