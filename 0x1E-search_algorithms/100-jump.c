@@ -26,7 +26,7 @@ return (-1);
 }
 printf("Value found between indexes [%d] and [%d]\n", (int)a, (int)b);
 b = b >= size ? size - 1 : b;
-for (; (a <= b) && (*(array + a) <= value); a++)
+for (; (a <= b)&&(*(array + a) <= value); a++)
 {
 printf("Value checked array[%d] = [%d]\n", (int)a, *(array + a));
 if (*(array + a) == value)
